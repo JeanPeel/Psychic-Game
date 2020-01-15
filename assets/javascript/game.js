@@ -1,8 +1,12 @@
 var characters = ["a","b","c"]
-var randomLetter = Math.floor(Math.random() * 100);    
-    
-console.log(characters.length);
-console.log(characters[1])
-console.log(randomLetter)
+var randomLetter = Math.floor(Math.random() * 100);   
 
-document.write(randomLetter)
+for (var i = 0; i < characters.length; i++ ) {
+    console.log ("list " + characters[i])
+}
+    
+console.log("length " + characters.length);
+console.log("location " + characters[1])
+console.log("random " + randomLetter)
+
+document.write("random " + randomLetter)
