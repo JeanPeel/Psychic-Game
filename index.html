@@ -10,14 +10,33 @@
 </head>
 <body>
     
-        <h1>The Psychic Game</h1>
-        <p>Guess what letter I am thinking of.</p>
-        <p>Wins:<b><span id="wins-txt"></span></b></p>
-        <p>Losses:<span id="losses-txt"></span></b></p>
-        <p>Rounds Left:<span id="rounds-txt"></span></b></p>
-        <p>Your guesses so far:<span id="guesses-txt"></span></b></p>
-        <p>You just guessed <b><span id="user-txt"></span></b></p>
+        <h1>The Psychic Typing Game</h1>
+
+        <ul>
+            <li>
+                Type letters to guess what letter I am thinking of.
+            </li>
+            <li>
+                The round resets after ten guesses.
+            </li>
+            <li>
+                You loose after ten rounds.
+            </li>
+            <li>
+                You win if you get to ten wins.
+            </li>
+        </ul>
+
+        <h2>
+            <p>Wins: <b><span id="wins-txt"></span></b></p>
+            <p>Losses: <b><span id="losses-txt"></span></b></p>
+            <p>Rounds Left: <b><span id="rounds-txt"></span></b></p>
+            <p>Your guesses so far: <b><span id="guesses-txt"></span></b></p>
+            <p>You just guessed: <b><span id="user-txt"></span></b></p>
+        </h2>
+
         <script src="assets/javascript/game.js">
         </script>
+
 </body>
 </html>
