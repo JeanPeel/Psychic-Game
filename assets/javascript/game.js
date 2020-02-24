@@ -1,3 +1,5 @@
+// Psychic Typing Game
+
 // changes to the page
 var winsTxt = document.getElementById("wins-txt");
 var lossesTxt = document.getElementById ("losses-txt");
